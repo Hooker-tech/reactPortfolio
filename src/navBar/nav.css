@@ -1,0 +1,32 @@
+.navBar {
+    color: white;
+    text-shadow: 3px 4px 8px coral;
+    text-decoration: none;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #232324;
+    transition: 0.5s;
+    padding-top: 5px;
+ 
+}
+
+.navBar a {
+     padding-top: 5%;
+    font-size: 21px;
+    color: #f8f8f3;
+    transition: 0.5s;
+    padding: 12px;
+    text-decoration: none;
+
+}
+
+.navBar a:hover {
+    color: coral;
+}
+
+.split {
+    float: right;   
+    background-color: rgb(10, 10, 10); 
+}
