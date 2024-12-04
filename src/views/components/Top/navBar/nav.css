@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  background-color: rgb(245, 239, 228);
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+}
+
+.nav {
+  /* background-color: antiquewhite; */
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  line-height: 60px;
+}
+
+.nav a {
+  font-size: 22px;
+  overflow: hidden;
+  color: #060606;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+.nav a:hover {
+  color: rgb(162, 164, 164);
+}
