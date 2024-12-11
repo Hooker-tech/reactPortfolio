@@ -1,32 +1,22 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-body {
   background-color: rgb(245, 239, 228);
+  height: 100vh;
+  margin: 0;
+  width: 100%;
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: lighter;
 }
 
 .nav {
-  /* background-color: antiquewhite; */
   display: flex;
   justify-content: flex-end;
-  width: 100%;
-  line-height: 60px;
-}
-
-.nav a {
-  font-size: 22px;
-  overflow: hidden;
-  color: #060606;
-  padding-right: 40px;
+  /* width: auto; */
+  font-size: 32px;
+  color: #2a2001;
   transition: 1s;
+z-index: 1;
 }
 
-.nav a:hover {
-  color: rgb(162, 164, 164);
+.nav :hover {
+  color: #e1d337;
 }

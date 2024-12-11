@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./views/pages/Home.jsx";
+import Home from "./views/pages/Home.jsx"
 import About from "./views/pages/About.jsx";
 import Skills from "./views/pages/Skills.jsx";
 import Education from "./views/pages/Education.jsx";
@@ -21,7 +21,7 @@ const App = () => {
           </Route>
         </Routes>
       </BrowserRouter>
-    </>
+      </>
   );
 };
 

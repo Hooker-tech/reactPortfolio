@@ -1,0 +1,23 @@
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  flex: 1;
+  flex: 1;
+  padding: 10px;
+}
+
+.puzzle {
+  height: 295px;
+  width: 295px;
+  box-shadow: 8px 10px 8px #4d4d4d;
+}
+
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+
+}

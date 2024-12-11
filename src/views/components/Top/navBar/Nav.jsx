@@ -1,22 +1,24 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import { IoMdHome } from "react-icons/io";
 import { VscAccount } from "react-icons/vsc";
 import { IoNewspaperOutline } from "react-icons/io5";
 import { ImBooks } from "react-icons/im";
 import { GrContact } from "react-icons/gr";
+
+
+
 import "./nav.css";
 
 const Nav = () => {
   return (
     <>
-      <div class="nav">
-          <a href="/" class="active"><IoMdHome /></a>
-          <a href="/about" className="icons"><VscAccount /></a>
-          <a href="/skills"  className="icons"><IoNewspaperOutline /></a>
-          <a href="/education"><ImBooks /></a>
-          <a href="/contact"><GrContact /></a>
-       
-      </div>
+    
+      <Link className="nav" to={"/home"}><IoMdHome /></Link>
+      <Link className="nav" to={"/about"}><VscAccount /></Link>
+      <Link className="nav" to={"/skills"}><IoNewspaperOutline /></Link>
+      <Link className="nav" to={"/education"}><ImBooks /></Link>
+      <Link className="nav" to={"/contact"}><GrContact /></Link>
+     
     </>
   )
 }
