@@ -1,0 +1,58 @@
+html,
+body {
+  background-color: rgb(252, 247, 239);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: Geneva, sans-serif;
+}
+
+.row {
+  display: flex;
+  margin-top: 0;
+}
+
+.column {
+  flex: 1;
+  flex: 1;
+}
+
+#jobDesc{
+  margin-bottom: 25%;
+}
+.img {
+  height: auto;
+  width: 65%;
+  box-shadow: 4px 12px 2px #959595;
+  opacity: 0.8;
+}
+
+h1 {
+  font-size: 6em;
+  font-family: Geneva;
+  color: #5a5959;
+}
+
+h2 {
+  font-size: 2.8em;
+  color: #5a5959;
+  width: 50%;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: #5a5959;
+}
+
+.logo {
+  display: flex;
+  justify-self: end;
+  font-size: 4em;
+}
+
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}

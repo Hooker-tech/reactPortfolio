@@ -1,12 +1,13 @@
+import React from "react";
 
+import "./skills.css";
 
 const Skills = () => {
-    return(
+  return (
+<>
+Skills
+</>
+  );
+};
 
-<div>
-    <h1>Skills</h1>
-</div>
-    ) 
-}
-
-export default Skills
+export default Skills;

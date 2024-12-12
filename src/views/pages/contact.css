@@ -1,0 +1,39 @@
+.photo {
+  height: 100vh;
+  width: 65vw;
+  display: flex;
+  justify-content: right;
+  margin-right: 5%;
+}
+
+li {
+  list-style: none;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  flex: 1;
+  flex: 1;
+  flex: 1;
+}
+
+.listitem1 {
+  font-size: 1.6em;
+  text-align: left;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.logo {
+  justify-content: flex-end;
+  flex-direction: column;
+}
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
