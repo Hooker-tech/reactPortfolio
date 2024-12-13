@@ -4,7 +4,7 @@ import Navbar from "../components/Top/navBar/Nav";
 
 function Layout() {
   return (
-    <div className="w-full">
+    <div>
       <Navbar />
       <Outlet />
     </div>
