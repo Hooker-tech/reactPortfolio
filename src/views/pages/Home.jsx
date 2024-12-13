@@ -5,26 +5,26 @@ import "./home.css";
 
 const Home = () => {
   return (
-    <>
-      <div className="row">
-        <div className="column">
-          <img className="img" alt="robot" src={robot} />
+    <section className="home-container">
+      <div className="home-content">
+        <div className="home-image">
+          <img src={robot} alt="Illustration of a robot" />
         </div>
-        <div className="column">
-          <div id="jobDesc">
+        <article className="home-description">
+          <header>
             <h1>Angela Hooker</h1>
-            <h2> Software Engineer</h2>
-            <h3>
-              i am a graphic designer based in Phoenix. My specialty is digital
-              design and UI experience.
-            </h3>
-          </div>
-        </div>
+            <h2>Software Engineer</h2>
+          </header>
+          <p>
+            I am a graphic designer based in Phoenix. My specialty is digital
+            design and UI experience.
+          </p>
+        </article>
       </div>
-      <div className="logo">
+      <div className="home-logo">
         <RiVipCrownLine />
       </div>
-    </>
+    </section>
   );
 };
 
