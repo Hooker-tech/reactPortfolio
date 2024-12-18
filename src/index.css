@@ -1,52 +1,5 @@
-/* html,
-body {
-  background-color: rgb(245, 239, 228);
-  height: 100vh;
-  margin: 0;
-
-  width: 100%;
-  font-family: "Helvetica Neue", sans-serif;
-}
-.landingphoto {
-  position: relative;
-  height: auto;
-  width: 50%;
-  box-shadow: 4px 12px 2px #959595;
-  opacity: 0.8;
-}
-
-.header {
-
-  position: absolute;
-  right: 0;
-
-  left: 25%;
-  padding-right: 2em;
-  font-size: 20px;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities
 
 
-h1 {
-  font-size: 56px;
-  font-family: Geneva;
-  color: #897b35;
-  text-shadow: 2px 2px #f8f6f6;
-}
-h2 {
-  font-size: 1em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #655712;
-  width: 60%;
-}
-h3 {
-  font-size: 0.8em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #433805;
-}
-
-.logo {
-  display: inline-flex;
-  font-size: 4em;
-  color: black;
- 
-} */

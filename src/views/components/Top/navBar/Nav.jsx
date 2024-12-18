@@ -4,25 +4,44 @@ import { VscAccount } from "react-icons/vsc";
 import { IoNewspaperOutline } from "react-icons/io5";
 import { ImBooks } from "react-icons/im";
 import { GrContact } from "react-icons/gr";
-import "./nav.css";
 
 const Nav = () => {
   return (
-    <aside className="side-nav">
-      <Link className="nav-item" to="/home" aria-label="Home">
-        <IoMdHome />
+    <aside className="fixed top-0 left-0 h-full w-16 bg-800 text-black flex flex-col items-center py-4 gap-6">
+      <Link
+        className="hover:text-yellow-400 transition-transform transform hover:scale-110"
+        to="/"
+        aria-label="Home"
+      >
+        <IoMdHome size={26} />
       </Link>
-      <Link className="nav-item" to="/about" aria-label="About">
-        <VscAccount />
+      <Link
+        className="hover:text-yellow-400 transition-transform transform hover:scale-110"
+        to="/about"
+        aria-label="About"
+      >
+        <VscAccount size={26} />
       </Link>
-      <Link className="nav-item" to="/skills" aria-label="Skills">
-        <IoNewspaperOutline />
+      <Link
+        className="hover:text-yellow-400 transition-transform transform hover:scale-110"
+        to="/skills"
+        aria-label="Skills"
+      >
+        <IoNewspaperOutline size={26} />
       </Link>
-      <Link className="nav-item" to="/experience" aria-label="Experience">
-        <ImBooks />
+      <Link
+        className="hover:text-yellow-400 transition-transform transform hover:scale-110"
+        to="/experience"
+        aria-label="Experience"
+      >
+        <ImBooks size={26} />
       </Link>
-      <Link className="nav-item" to="/contact" aria-label="Contact">
-        <GrContact />
+      <Link
+        className="hover:text-yellow-400 transition-transform transform hover:scale-110"
+        to="/contact"
+        aria-label="Contact"
+      >
+        <GrContact size={28} />
       </Link>
     </aside>
   );
