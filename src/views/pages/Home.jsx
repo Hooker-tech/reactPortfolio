@@ -5,8 +5,8 @@ import robot from "../../Assets/robot.jpg";
 const Home = () => {
   return (
     <section className="bg-[#fcf7ef] py-10 flex flex-col items-center justify-center min-h-screen">
-      <div className="home-content flex flex-wrap items-center justify-center gap-8 w-full max-w-[1200px] px-5">
-        <div className="home-image flex-1 max-w-[45%] md:max-w-[80%]">
+      <div className="flex flex-wrap items-center justify-center gap-8 w-full max-w-[1200px] px-5">
+        <div className=" flex-1 max-w-[45%] md:max-w-[80%]">
           <img
             src={robot}
             alt="Illustration of a robot"
@@ -14,7 +14,7 @@ const Home = () => {
           />
         </div>
 
-        <article className="home-description flex-1 max-w-[45%] text-left md:max-w-[80%]">
+        <article className=" flex-1 max-w-[45%] text-left md:max-w-[80%]">
           <header className="mb-5">
             <h1 className="text-[2.5rem] font-bold text-[#5a5959] mb-2 md:text-[2rem]">
               Angela Hooker
@@ -30,7 +30,7 @@ const Home = () => {
         </article>
       </div>
 
-      <div className="home-logo text-right mt-10 text-[#5a5959] text-[3rem] md:text-[2.5rem]">
+      <div className=" mr-0 mt-10 text-[#5a5959] text-[3rem] md:text-[2.5rem]">
         <RiVipCrownLine />
       </div>
     </section>
@@ -38,4 +38,3 @@ const Home = () => {
 };
 
 export default Home;
-
