@@ -17,16 +17,16 @@ const Skills = () => {
   ];
 
   return (
-    <section className="skills-container bg-[#fcf7ef] py-10 px-5">
-      <div className="top-image-container flex justify-center mb-8">
+    <section className="bg-[#fcf7ef] py-10 px-5">
+      <div className="flex justify-center mb-8">
         <img
           src={code}
-          alt="Skills Overview"
-          className="top-image w-full max-w-[600px] h-auto rounded-lg shadow-md"
+          alt="labtob with womans hand hovering"
+          className="w-full max-w-[600px] h-auto rounded-lg shadow-md"
         />
       </div>
 
-      <div className="skillsdescription text-[#5a5959] text-center max-w-[800px] mx-auto mb-8 px-4 text-[1.1rem] leading-[1.7]">
+      <div className="text-[#5a5959] text-center max-w-[800px] mx-auto mb-8 px-4 text-[1.1rem] leading-[1.7]">
         Throughout my journey as a Developer I have persevered through a boot
         camp, many years of college, and a long journey through personal
         education. Each of these endeavors has helped me get closer tomy goal as
@@ -35,11 +35,11 @@ const Skills = () => {
         my path leads me.
       </div>
 
-      <div className="technologies grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center">
         {technologies.map((tech, index) => (
           <div
             key={index}
-            className="technology-item flex flex-col items-center justify-center bg-white shadow-md rounded-lg p-5 w-32 h-32 text-[#5a5959] hover:bg-[#f9f1e8] transition-all"
+            className="flex flex-col items-center justify-center bg-white shadow-md rounded-lg p-5 w-32 h-32 text-[#5a5959] hover:bg-[#f9f1e8] transition-all"
           >
             <div className="text-[2.5rem] mb-2">{tech.icon}</div>
             <span className="text-center font-semibold text-[1rem]">

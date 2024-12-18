@@ -14,7 +14,7 @@ const Experience = () => {
   ];
 
   return (
-    <div className="experience-container bg-[#fcf7ef] py-10 px-5">
+    <div className="bg-[#fcf7ef] py-10 px-5">
       <div className="row grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-center  mr-10 mb-10 ml-10 ">
         {projects.map((project, index) => (
           <div
@@ -22,7 +22,7 @@ const Experience = () => {
             className="card flex justify-center items-center shadow-md rounded-lg overflow-hidden"
           >
             <img
-              className="project-image w-full h-48 object-cover"
+              className="w-full h-48 object-cover"
               src={project}
               alt={`Project ${index + 1}`}
             />
