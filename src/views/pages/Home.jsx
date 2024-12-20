@@ -30,8 +30,10 @@ const Home = () => {
         </article>
       </div>
 
-      <div className=" mr-0 mt-10 text-[#5a5959] text-[3rem] md:text-[2.5rem]">
-        <RiVipCrownLine />
+      <div className="flex items-center justify-end w-full fixed bottom-0 right-0 p-4">
+        <div className="animate-pulseGold text-[3rem] md:text-[2.5rem]">
+          <RiVipCrownLine />
+        </div>
       </div>
     </section>
   );
