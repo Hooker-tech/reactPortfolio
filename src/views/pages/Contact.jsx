@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="flex flex-wrap justify-center gap-8 w-full max-w-[1200px]">
           <div className="flex-1 max-w-[45%] text-left p-5 md:max-w-[80%] md:mb-5">
             <h1 className="text-[3.5em] text-[#5a5959] mb-5 md:text-[2.5em] sm:text-[2em]">
-              Work With Me
+              Work With Me, I'm experienced.
             </h1>
             <ul className="font-bold list-none p-0">
               <li className="text-[1.2em] leading-[1.6] text-[#5a5959] mb-2 sm:text-[1em]">
